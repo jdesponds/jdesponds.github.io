@@ -10,15 +10,13 @@ Test
   box-sizing: border-box;
 }
 
-/* Create two equal columns that floats next to each other */
 .column {
   float: left;
   width: 50%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  height: 300px; 
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
@@ -32,12 +30,14 @@ Test
 
 <div class="row">
   <div class="column" style="background-color:#aaa;">
-    <h2>Column 1</h2>
-    <p>Menu</p>
+    <h2>Menu</h2>
+    <p><h1>Events</h1></p>
+    <p><h1>Research projects</h1></p>
+    <p><h1>CV</h1></p>
   </div>
   <div class="column" style="background-color:#bbc;">
-    <h2>Column 2</h2>
-    <p>Home</p>
+    <h2>Home</h2>
+    <p>Trained in mathematics and physics etc</p>
   </div>
 </div>
 
